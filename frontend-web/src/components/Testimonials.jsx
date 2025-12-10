@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import Testimonial from "../assets/Testimonials.png";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 import Coma from "../assets/quote.png"
@@ -107,7 +106,7 @@ export default function TestimonialsSection() {
                 {/* IMAGE + TEXT + NAME + JOB */}
                 <div className="relative">
                   <img
-  src={Testimonial}
+  src="https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765349846/Testimonials_c7f8qf.png"
   alt="testimonial"
   className="w-full max-w-[500px] h-auto aspect-[5/6] shadow-md hover:shadow-[0_8px_30px_rgba(137,92,64,0.35)] rounded-full object-cover"
 />

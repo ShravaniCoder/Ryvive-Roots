@@ -25,9 +25,10 @@ const HeroSection = () => {
   const cloudinaryImages = { 
      Sandwitch: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765276783/Sandwitch_zyfnbq.jpg",
      Juice : "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765279455/Juice_ercm00.jpg",
+     Salad: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765347810/Salad3_guopxm.webp"
   }
   
-  const images = [Salad, cloudinaryImages.Sandwitch, cloudinaryImages.Juice];
+  const images = [cloudinaryImages.Salad, cloudinaryImages.Sandwitch, cloudinaryImages.Juice];
   const sliderRef = useRef(null);
  const navigate = useNavigate();
 

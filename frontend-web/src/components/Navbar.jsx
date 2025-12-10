@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Logo from "../assets/logo.png";
-import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { RiMenuUnfold4Fill } from "react-icons/ri";
 import { motion } from "framer-motion";
 
@@ -41,7 +40,7 @@ const Navbar = () => {
         <div className="flex items-center gap-12">
           {/* Logo */}
           <a href="/" className="flex items-center">
-            <img src={Logo} alt="Logo" className="w-48 object-contain" />
+            <img src="https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765350869/logo_mfyxgl.png" alt="Logo" className="w-48 object-contain" />
           </a>
 
           {/* Nav Links */}

@@ -3,44 +3,46 @@ import Slider from "react-slick";
 import { FaArrowRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-import Salad from "../assets/Salad3.jpg";
-import Juice from "../assets/kiwiJuice.jpg";
-import PastaImage from "../assets/Pasta.jpg";
-import Sandwich from "../assets/Sandwitch.jpg";
-import Wraps from "../assets/wrap.jpg";
-import Soup from "../assets/soup.jpg";
 
 const MenuCarousel = () => {
   const navigate = useNavigate();
+   const cloudinaryImages = { 
+     Soup: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765283057/soup_qxivj6.jpg",
+     Juice : "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765350053/kiwiJuice_n8lsue.jpg",
+      Salad: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765347810/Salad3_guopxm.webp",
+      Pasta: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765350520/Pasta_be09n6.jpg",
+       Sandwitch: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765276783/Sandwitch_zyfnbq.jpg",
+       Wraps: "https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765350641/wrap_w1rao3.jpg"
+  }
 
   const cards = [
     {
-      img: Salad,
+      img: cloudinaryImages.Salad,
       title: "Healthy Salads",
       text: "A refreshing mix of greens crafted for pure balance. Light, nutritious, and made to keep you feeling fresh.",
     },
     {
-      img: Juice,
+      img: cloudinaryImages.Juice,
       title: "Healthy Juices",
       text: "Wholesome blends made from the freshest ingredients. A natural boost to energize your day, one sip at a time.",
     },
     {
-      img: PastaImage,
+      img: cloudinaryImages.Pasta,
       title: "Healthy Pasta",
       text: "Comfort food with a clean, healthy twist. Flavorful, satisfying, and perfect for every craving.",
     },
     {
-      img: Sandwich,
+      img: cloudinaryImages.Sandwitch,
       title: "Healthy Sandwitch",
       text: "Packed with proteins and fresh veggies, perfect for clean eating and daily nourishment.",
     },
     {
-      img: Wraps,
+      img: cloudinaryImages.Wraps,
       title: "Healthy Wraps",
       text: "Packed with proteins and fresh veggies, perfect for clean eating and daily nourishment.",
     },
     {
-      img: Soup,
+      img: cloudinaryImages.Soup,
       title: "Healthy Soup",
       text: "Packed with proteins and fresh veggies, perfect for clean eating and daily nourishment.",
     },
