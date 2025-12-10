@@ -1,18 +1,4 @@
-import React from "react";
-import Hygene from "../assets/Hygen.png";
-import Handmade from "../assets/Handmade.png";
-import Quality from "../assets/Quality.png";
-import Fresh from "../assets/Fresh.png";
-import Nutrition from "../assets/Nutrition.png";
 
-import {
-  ShieldCheck,
-  Hammer,
-  BadgeCheck,
-  Leaf,
-  Sparkles,
-  CheckCircle,
-} from "lucide-react";
 import { motion } from "framer-motion";
 import Sparkle from "../assets/Sparkle.png";
 import Hand from "../assets/hand.png";
@@ -96,7 +82,7 @@ export default function AboutPromise() {
           className="grid grid-cols-1 cursor-pointer md:grid-cols-3 gap-10 mx-auto max-w-7xl "
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
+          animate="visible"
           viewport={{ once: false, amount: 0.3 }}
         >
           {reasons.map((item, index) => {

@@ -105,7 +105,7 @@ for everyone. We aim to create a future where good health is a lifestyle, not a 
 
   <div className="w-full flex flex-col md:flex-row items-start justify-center gap-10 xl:px-24 lg:px-16 px-4 py-20 ">
     <div className="w-full md:w-1/2">
-      <h1 className="text-4xl font-cinzel uppercase font-semibold text-[#895C40]">
+      <h1 className="md:text-4xl text-2xl  font-cinzel uppercase font-semibold text-[#895C40]">
         Our Story
       </h1>
 

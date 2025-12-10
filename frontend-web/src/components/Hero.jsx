@@ -227,7 +227,7 @@ viewport={{ once: true, amount: 0.25 }}
 variants={containerVariant}
 className="relative flex flex-col lg:flex-row items-center justify-center bg-white px-8 overflow-visible"
 >
-<div className="relative w-full flex flex-col lg:flex-row items-center lg:items-start gap-10 justify-center">
+<div className="relative w-full flex flex-col lg:flex-row items-center lg:items-start gap-0 md:gap-10 justify-center">
 <motion.img
  src="https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765360072/sustainable_r2gifi.png"
 alt="Subscription"
@@ -238,7 +238,7 @@ className="relative -top-20 translate-x-0 shadow-2xl lg:translate-x-40 w-[500px]
 
 <motion.div
 variants={textVariant}
-className="w-full font-manrope lg:w-1/2 py-8 text-center lg:text-left lg:ml-16 lg:pl-20"
+className="w-full font-manrope lg:w-1/2 md: py-8 text-center lg:text-left lg:ml-16 lg:pl-20"
 >
 <h2 className="text-3xl md:text-4xl font-bold font-cinzel uppercase text-[#4b3b2a] mb-8">
 SUSTAINABLE PACKAGING 

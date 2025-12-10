@@ -18,12 +18,12 @@ export default function WhatIsRyviveRoots() {
 
   return (
     <div className="w-full md:w-1/2 mt-10">
-      <h1 className="text-4xl font-cinzel uppercase font-semibold text-[#895C40]">
+      <h1 className="md:text-4xl text-2xl font-cinzel uppercase font-semibold text-[#895C40]">
         What is Ryvive Roots?
       </h1>
 
       {visibleParagraphs.map((text, index) => (
-        <p key={index} className="text-lg font-manrope py-2">
+        <p key={index} className="md:text-lg text-base font-manrope py-2">
           {text}
         </p>
       ))}

@@ -21,7 +21,7 @@ export default function HowItWorks() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.3 }}
-        className="text-4xl text-center font-cinzel uppercase font-semibold text-[#243E36] pb-10"
+        className="text-2xl md:text-4xl text-center font-cinzel uppercase font-semibold text-[#243E36] pb-10"
       >
        How It Works
       </motion.h3>

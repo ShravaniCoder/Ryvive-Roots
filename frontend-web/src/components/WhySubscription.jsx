@@ -83,7 +83,7 @@ const cardVariants = {
 
 export default function WhySubscribe() {
   return (
-    <section className="w-full bg-[#FEF7F0] py-16">
+    <section className="w-full bg-[#FEF7F0] py-4 md:py-16">
       <div className="px-6 md:px-20 py-6">
 
         {/* Title */}
@@ -92,7 +92,7 @@ export default function WhySubscribe() {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8, ease: "easeOut" }}
   viewport={{ once: false, amount: 0.3 }}
-  className="text-4xl text-center font-cinzel uppercase font-semibold text-[#243E36] pb-10"
+  className="md:text-4xl text-2xl text-center font-cinzel uppercase font-semibold text-[#243E36] pb-10"
 >
   Why Choose Ryvive Roots Subscription?
 </motion.h3>
@@ -103,7 +103,7 @@ export default function WhySubscribe() {
           className="grid grid-cols-1 cursor-pointer md:grid-cols-3 gap-10 mx-auto max-w-7xl  "
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
+          animate="visible"
           viewport={{ once: false, amount: 0.3 }}
         >
           {reasons.map((item, index) => {
