@@ -2,18 +2,10 @@ import { useRef } from "react";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import Salad from "../assets/Salad3.jpg";
-import Coffee from "../assets/Sandwitch.jpg";
-import Juice from "../assets/Juice.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import RasBerrie from "../assets/RasBerrie.png";
 import Texture2 from "../assets/pattern-2.png";
-import Berrie from "../assets/Berrie.png";
-import Parallax from "../assets/ParallaxBg.jpeg";
 import Para from "../assets/para.jpg";
-import Dietisian from "../assets/Dietisian.jpg";
-import Sustainable from "../assets/sustainable.png";
 import ScrollingText from "./Usps";
 import MenuCarousel from "./MenuCarousal";
 import { useNavigate } from "react-router-dom";
@@ -237,8 +229,8 @@ className="relative flex flex-col lg:flex-row items-center justify-center bg-whi
 >
 <div className="relative w-full flex flex-col lg:flex-row items-center lg:items-start gap-10 justify-center">
 <motion.img
- src={Sustainable}
-alt="Free Breakfast Offer"
+ src="https://res.cloudinary.com/dvugjpjoj/image/upload/f_auto,q_auto/v1765360072/sustainable_r2gifi.png"
+alt="Subscription"
 variants={imageVariant}
 className="relative -top-20 translate-x-0 shadow-2xl lg:translate-x-40 w-[500px] lg:w-[550px] h-[300px] lg:h-[400px] object-cover"
 />
